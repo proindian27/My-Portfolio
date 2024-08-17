@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Portfolio</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#home">My Portfolio</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Home Section -->
+		<section
+			id="home"
+			class="vh-100 d-flex align-items-center justify-content-center text-center"
+		>
+			<div
+				class="container"
+				style="
+					background: url('/background.jpeg') no-repeat center center/contain;
+					padding: 15rem;
+				"
+			>
+				<h1 class="display-3" style="color: white">Hello, I'm Dhruv Naik</h1>
+				<p class="lead" style="color: darkgrey">Aspiring Software Engineer</p>
+				<a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+			</div>
+		</section>
+
+		<!-- About Section -->
+		<section id="about" class="py-5 bg-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<img
+							src="/dnaik.jpeg"
+							alt="Dhruv Naik"
+							class="img-fluid rounded-circle"
+							style="width: 250px; height: auto"
+						/>
+					</div>
+					<div class="col-md-8">
+						<h2 style="font-weight: 700">About Me</h2>
+						<p>BE Computer Science</p>
+						<p>Don Bosco College of Engineering</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Education Section -->
+		<section id="education" class="py-5">
+			<div class="container">
+				<h2 class="text-center mb-4" style="font-weight: 700">Education</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="education-item">
+							<h3 style="font-weight: 600">BE Computer Science</h3>
+							<p>Don Bosco College of Engineering</p>
+							<p class="text-muted">2021 - 2025</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="education-item">
+							<h3 style="font-weight: 600">High School</h3>
+							<p>Vidya Vikas Academy</p>
+							<p class="text-muted">2019-2021</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills Section -->
+		<section id="skills" class="py-5">
+			<div class="container">
+				<h2 class="text-center mb-4" style="font-weight: 700">Skills</h2>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="skill-item">
+							<h4>Web Development</h4>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>JavaScript</li>
+								<li>Bootstrap</li>
+								<li>React</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="skill-item">
+							<h4>Programming Languages</h4>
+							<ul>
+								<li>Python</li>
+								<li>C</li>
+								<li>C++</li>
+								<li>Kotlin</li>
+								<li>R</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects Section (Optional) -->
+		<section id="projects" class="py-5">
+			<div class="container">
+				<h2 class="text-center mb-5" style="font-weight: 700">My Projects</h2>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card mb-4">
+							<div class="card-body">
+								<h5 class="card-title" style="font-weight: 600">
+									SGAA Website
+								</h5>
+								<p class="card-text">
+									Created a live website for South Goa Advocates Association
+								</p>
+								<a
+									href="https://southgoaadvocatesassociation.com/"
+									class="btn btn-primary"
+									>Website Link</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-4">
+							<div class="card-body">
+								<h5 class="card-title" style="font-weight: 600">
+									Payroll Management System
+								</h5>
+								<p class="card-text">DBMS Mini Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-4">
+							<div class="card-body">
+								<h5 class="card-title" style="font-weight: 600">
+									Laundry Management System
+								</h5>
+								<p class="card-text">OOSE Mini Project</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="py-4 bg-dark text-white text-center">
+			<div class="container">
+				<p>© 2024 Dhruv Naik | All Rights Reserved</p>
+				<p>
+					Contact Me:
+					<a
+						href="https://www.linkedin.com/in/dhruv-naik-729339288/"
+						class="text-white me-2"
+						>LinkedIn</a
+					>
+					|
+					<a
+						href="https://github.com/proindian27/proindian27"
+						class="text-white me-2"
+						>GitHub</a
+					>
+				</p>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>

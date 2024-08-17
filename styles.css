@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+	font-family: "Arial", sans-serif;
+	line-height: 1.6;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+section {
+	padding: 60px 0;
+}
+
+#home {
+	background: url("background.jpg") no-repeat center center/cover;
+	color: white;
+	height: 100vh;
+}
+
+#home h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+#about img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+/* Projects Section */
+.card {
+	transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+}
